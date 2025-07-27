@@ -15,6 +15,7 @@ import {
   DollarSignIcon,
   ShieldIcon,
   ScaleIcon,
+  CreditCardIcon,
 } from "lucide-react";
 import { coreServices } from "@/infinity/data/services-data";
 
@@ -26,6 +27,7 @@ const serviceIcons = {
   "Income Tax": DollarSignIcon,
   Trademark: ShieldIcon,
   Regulatory: ScaleIcon,
+  "Business Loans": CreditCardIcon,
 };
 
 export default function ServicesGrid() {
@@ -45,7 +47,7 @@ export default function ServicesGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
           {coreServices.map((service, index) => {
-            const IconComponent = serviceIcons[service.name];
+            const IconComponent = serviceIcons[service.name] || RocketIcon;
             return (
               <Card
                 key={index}
