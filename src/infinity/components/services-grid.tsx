@@ -16,7 +16,7 @@ import {
   ShieldIcon,
   ScaleIcon,
 } from "lucide-react";
-import { coreServices } from "@/polymet/data/services-data";
+import { coreServices } from "@/infinity/data/services-data";
 
 const serviceIcons = {
   Startup: RocketIcon,

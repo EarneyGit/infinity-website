@@ -1,5 +1,5 @@
 import { CheckCircleIcon } from "lucide-react";
-import { whyChooseUs } from "@/polymet/data/services-data";
+import { whyChooseUs } from "@/infinity/data/services-data";
 
 export default function WhyChooseUs() {
   return (

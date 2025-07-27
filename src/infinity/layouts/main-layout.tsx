@@ -1,6 +1,6 @@
-import Navigation from "@/polymet/components/navigation";
-import Footer from "@/polymet/components/footer";
-import ChatWidget from "@/polymet/components/chat-widget";
+import Navigation from "@/infinity/components/navigation";
+import Footer from "@/infinity/components/footer";
+import ChatWidget from "@/infinity/components/chat-widget";
 
 interface MainLayoutProps {
   children: React.ReactNode;

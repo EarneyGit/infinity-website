@@ -1,5 +1,5 @@
-import ServicePageTemplate from "@/polymet/components/service-page-template";
-import { servicesData } from "@/polymet/data/services-data";
+import ServicePageTemplate from "@/infinity/components/service-page-template";
+import { servicesData } from "@/infinity/data/services-data";
 
 export default function RegulatoryPage() {
   const sections = [

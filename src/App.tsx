@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MainLayout from "@/polymet/layouts/main-layout";
-import Homepage from "@/polymet/pages/homepage";
-import StartupPage from "@/polymet/pages/startup";
-import RegistrationsPage from "@/polymet/pages/registrations";
-import GSTPage from "@/polymet/pages/gst";
-import MCACompliancePage from "@/polymet/pages/mca-compliance";
-import IncomeTaxPage from "@/polymet/pages/income-tax";
-import TrademarkPage from "@/polymet/pages/trademark";
-import RegulatoryPage from "@/polymet/pages/regulatory";
-import ConsultationPage from "@/polymet/pages/consultation";
+import MainLayout from "@/infinity/layouts/main-layout";
+import Homepage from "@/infinity/pages/homepage";
+import StartupPage from "@/infinity/pages/startup";
+import RegistrationsPage from "@/infinity/pages/registrations";
+import GSTPage from "@/infinity/pages/gst";
+import MCACompliancePage from "@/infinity/pages/mca-compliance";
+import IncomeTaxPage from "@/infinity/pages/income-tax";
+import TrademarkPage from "@/infinity/pages/trademark";
+import RegulatoryPage from "@/infinity/pages/regulatory";
+import ConsultationPage from "@/infinity/pages/consultation";
 
 export default function InfinityTaxWebsite() {
   return (

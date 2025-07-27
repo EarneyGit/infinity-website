@@ -7,7 +7,7 @@ import {
   StarIcon,
   QuoteIcon,
 } from "lucide-react";
-import { testimonials } from "@/polymet/data/services-data";
+import { testimonials } from "@/infinity/data/services-data";
 
 export default function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
