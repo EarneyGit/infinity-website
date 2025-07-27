@@ -207,11 +207,11 @@ export default function ConsultationPage() {
                   <div>
                     <h4 className="font-semibold text-gray-900">Address</h4>
                     <p className="text-gray-600">
-                      123 Business District
+                      D 72, Kilpauk Garden Road
                       <br />
-                      Commercial Complex
+                      T.P.Chatram, KVN Puram, Kilpauk
                       <br />
-                      Mumbai, Maharashtra 400001
+                      Chennai, Tamil Nadu 600010
                     </p>
                   </div>
                 </div>
@@ -221,7 +221,7 @@ export default function ConsultationPage() {
 
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone</h4>
-                    <p className="text-gray-600">+91 98765 43210</p>
+                    <p className="text-gray-600">+91 98846 44544</p>
                   </div>
                 </div>
 

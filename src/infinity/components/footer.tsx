@@ -102,9 +102,9 @@ export default function Footer() {
                 <MapPinIcon className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" />
 
                 <div className="text-sm text-gray-400">
-                  <div>123 Business District</div>
-                  <div>Commercial Complex</div>
-                  <div>Mumbai, Maharashtra 400001</div>
+                  <div>D 72, Kilpauk Garden Road</div>
+                  <div>T.P.Chatram, KVN Puram, Kilpauk</div>
+                  <div>Chennai, Tamil Nadu 600010</div>
                 </div>
               </div>
 
@@ -113,10 +113,10 @@ export default function Footer() {
 
                 <div className="text-sm">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919884644544"
                     className="text-gray-400 hover:text-green-400 transition-colors duration-200"
                   >
-                    +91 98765 43210
+                    +91 98846 44544
                   </a>
                 </div>
               </div>
