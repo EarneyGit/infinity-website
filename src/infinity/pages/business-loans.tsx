@@ -9,11 +9,11 @@ import {
   MapPinIcon,
   ClockIcon,
   DollarSignIcon,
-  BuildingOfficeIcon,
+  Building2Icon,
   CreditCardIcon,
   TrendingUpIcon,
-  ShieldCheckIcon,
-  DocumentTextIcon
+  ShieldIcon,
+  FileTextIcon
 } from "lucide-react";
 
 export default function BusinessLoansPage() {
@@ -37,7 +37,7 @@ export default function BusinessLoansPage() {
     {
       title: "CGTMSE Scheme Loans",
       description: "Collateral-free loans up to ₹5 crores for Micro and Small Enterprises",
-      icon: ShieldCheckIcon
+      icon: ShieldIcon
     },
     {
       title: "Private Finance (Cheque-Based)",
@@ -47,12 +47,12 @@ export default function BusinessLoansPage() {
     {
       title: "Equipment Financing",
       description: "Funding specifically for purchasing new or refurbished machinery",
-      icon: BuildingOfficeIcon
+      icon: Building2Icon
     },
     {
       title: "Mudra Loans",
       description: "Micro-enterprises assistance under Pradhan Mantri MUDRA Yojana",
-      icon: DocumentTextIcon
+      icon: FileTextIcon
     }
   ];
 
