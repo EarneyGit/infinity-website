@@ -12,6 +12,7 @@ const navigationItems = [
   { name: "Trademark", href: "/trademark" },
   { name: "Regulatory", href: "/regulatory" },
   { name: "Business Loans", href: "/business-loans" },
+  { name: "Personal Loans", href: "/personal-loans" },
 ];
 
 export default function Navigation() {

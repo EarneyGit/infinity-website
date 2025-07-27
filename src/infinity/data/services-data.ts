@@ -713,6 +713,11 @@ export const coreServices = [
     description: "Bank loans, private finance & funding solutions across Tamil Nadu",
     link: "/business-loans",
   },
+  {
+    name: "Personal Loans",
+    description: "Expert guidance for personal loans across Tamil Nadu with better rates & quick approval",
+    link: "/personal-loans",
+  },
 ];
 
 export const whyChooseUs = [

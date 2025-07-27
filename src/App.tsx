@@ -10,6 +10,7 @@ import IncomeTaxPage from "@/infinity/pages/income-tax";
 import TrademarkPage from "@/infinity/pages/trademark";
 import RegulatoryPage from "@/infinity/pages/regulatory";
 import BusinessLoansPage from "@/infinity/pages/business-loans";
+import PersonalLoansPage from "@/infinity/pages/personal-loans";
 import ConsultationPage from "@/infinity/pages/consultation";
 
 export default function InfinityTaxWebsite() {
@@ -35,6 +36,8 @@ export default function InfinityTaxWebsite() {
           <Route path="/regulatory" element={<RegulatoryPage />} />
 
           <Route path="/business-loans" element={<BusinessLoansPage />} />
+
+          <Route path="/personal-loans" element={<PersonalLoansPage />} />
 
           <Route path="/consultation" element={<ConsultationPage />} />
         </Routes>

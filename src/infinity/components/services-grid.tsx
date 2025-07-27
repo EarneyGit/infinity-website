@@ -16,6 +16,7 @@ import {
   ShieldIcon,
   ScaleIcon,
   CreditCardIcon,
+  WalletIcon,
 } from "lucide-react";
 import { coreServices } from "@/infinity/data/services-data";
 
@@ -28,6 +29,7 @@ const serviceIcons = {
   Trademark: ShieldIcon,
   Regulatory: ScaleIcon,
   "Business Loans": CreditCardIcon,
+  "Personal Loans": WalletIcon,
 };
 
 export default function ServicesGrid() {

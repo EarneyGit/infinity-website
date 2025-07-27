@@ -10,6 +10,7 @@ const serviceLinks = [
   { name: "Trademark & IP", href: "/trademark" },
   { name: "Regulatory Services", href: "/regulatory" },
   { name: "Business Loans", href: "/business-loans" },
+  { name: "Personal Loans", href: "/personal-loans" },
 ];
 
 const quickLinks = [
