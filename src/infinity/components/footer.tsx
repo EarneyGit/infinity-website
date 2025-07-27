@@ -173,7 +173,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400">
-              © 2024 Infinity Tax & Accounting Consultancy. All rights
+              © 2025 Infinity Tax & Accounting Consultancy. All rights
               reserved.
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-400">

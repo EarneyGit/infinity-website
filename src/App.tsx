@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "@/infinity/layouts/main-layout";
+import ScrollToTop from "@/infinity/components/scroll-to-top";
 import Homepage from "@/infinity/pages/homepage";
 import StartupPage from "@/infinity/pages/startup";
 import RegistrationsPage from "@/infinity/pages/registrations";
@@ -14,6 +15,7 @@ import ConsultationPage from "@/infinity/pages/consultation";
 export default function InfinityTaxWebsite() {
   return (
     <Router>
+      <ScrollToTop />
       <MainLayout>
         <Routes>
           <Route path="/" element={<Homepage />} />
