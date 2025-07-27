@@ -708,6 +708,11 @@ export const coreServices = [
     description: "Specialized RBI and IRDA regulatory compliance",
     link: "/regulatory",
   },
+  {
+    name: "Business Loans",
+    description: "Complete funding solutions from bank loans to private finance",
+    link: "/business-loans",
+  },
 ];
 
 export const whyChooseUs = [

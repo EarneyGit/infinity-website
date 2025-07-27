@@ -11,6 +11,7 @@ const navigationItems = [
   { name: "Income Tax", href: "/income-tax" },
   { name: "Trademark", href: "/trademark" },
   { name: "Regulatory", href: "/regulatory" },
+  { name: "Business Loans", href: "/business-loans" },
 ];
 
 export default function Navigation() {

@@ -8,6 +8,7 @@ import MCACompliancePage from "@/infinity/pages/mca-compliance";
 import IncomeTaxPage from "@/infinity/pages/income-tax";
 import TrademarkPage from "@/infinity/pages/trademark";
 import RegulatoryPage from "@/infinity/pages/regulatory";
+import BusinessLoansPage from "@/infinity/pages/business-loans";
 import ConsultationPage from "@/infinity/pages/consultation";
 
 export default function InfinityTaxWebsite() {
@@ -30,6 +31,8 @@ export default function InfinityTaxWebsite() {
           <Route path="/trademark" element={<TrademarkPage />} />
 
           <Route path="/regulatory" element={<RegulatoryPage />} />
+
+          <Route path="/business-loans" element={<BusinessLoansPage />} />
 
           <Route path="/consultation" element={<ConsultationPage />} />
         </Routes>

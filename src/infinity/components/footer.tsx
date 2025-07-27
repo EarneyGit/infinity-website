@@ -9,6 +9,7 @@ const serviceLinks = [
   { name: "Income Tax", href: "/income-tax" },
   { name: "Trademark & IP", href: "/trademark" },
   { name: "Regulatory Services", href: "/regulatory" },
+  { name: "Business Loans", href: "/business-loans" },
 ];
 
 const quickLinks = [
