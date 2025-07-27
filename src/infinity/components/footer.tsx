@@ -29,16 +29,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">∞</span>
-              </div>
-              <div>
-                <div className="text-xl font-bold">Infinity Tax</div>
-                <div className="text-sm text-gray-400">
-                  & Accounting Consultancy
-                </div>
-              </div>
+            <Link to="/" className="flex items-center mb-6">
+              <img 
+                src="/Infinity Final Logo.png" 
+                alt="Infinity Tax & Accounting Consultancy" 
+                className="h-12 w-auto"
+              />
             </Link>
 
             <p className="text-gray-400 mb-6 leading-relaxed">

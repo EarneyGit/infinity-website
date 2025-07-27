@@ -25,18 +25,12 @@ export default function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">∞</span>
-            </div>
-            <div>
-              <div className="text-xl font-bold text-gray-900">
-                Infinity Tax
-              </div>
-              <div className="text-sm text-gray-600 hidden sm:block">
-                & Accounting Consultancy
-              </div>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/Infinity Final Logo.png" 
+              alt="Infinity Tax & Accounting Consultancy" 
+              className="h-12 lg:h-14 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
