@@ -8,7 +8,7 @@ import {
   MailIcon,
   MapPinIcon,
   ClockIcon,
-  BanknotesIcon,
+  DollarSignIcon,
   BuildingOfficeIcon,
   CreditCardIcon,
   TrendingUpIcon,
@@ -42,7 +42,7 @@ export default function BusinessLoansPage() {
     {
       title: "Private Finance (Cheque-Based)",
       description: "Immediate, short-term funding with minimal documentation via PDCs",
-      icon: BanknotesIcon
+      icon: DollarSignIcon
     },
     {
       title: "Equipment Financing",
