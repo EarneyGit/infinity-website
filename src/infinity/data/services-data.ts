@@ -710,7 +710,7 @@ export const coreServices = [
   },
   {
     name: "Business Loans",
-    description: "Complete funding solutions from bank loans to private finance",
+    description: "Bank loans, private finance & funding solutions across Tamil Nadu",
     link: "/business-loans",
   },
 ];
