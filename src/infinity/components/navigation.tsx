@@ -66,9 +66,9 @@ export default function Navigation() {
               className="text-gray-700 hover:text-green-600"
             >
               {isOpen ? (
-                <XIcon className="h-6 w-6" />
+                <XIcon className="h-7 w-7" />
               ) : (
-                <MenuIcon className="h-6 w-6" />
+                <MenuIcon className="h-7 w-7" />
               )}
             </Button>
           </div>

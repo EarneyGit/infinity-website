@@ -37,9 +37,8 @@ export default function FinalCTA() {
             </Button>
 
             <Button
-              variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300"
+              className="bg-white/10 border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 backdrop-blur-sm"
             >
               <Link to="/contact" className="flex items-center space-x-2">
                 <PhoneIcon className="w-5 h-5" />
